@@ -22,7 +22,7 @@ class MultiLayerNetExtend:
         'sigmoid'または'xavier'を指定した場合は「Xavierの初期値」を設定
     weight_decay_lambda : Weight Decay（L2ノルム）の強さ
     use_dropout: Dropoutを使用するかどうか
-    dropout_ration : Dropoutの割り合い #なんかrationなんだよな。。。
+    dropout_ration : Dropoutの割り合い
     use_batchNorm: Batch Normalizationを使用するかどうか
     """
     def __init__(self, input_size, hidden_size_list, output_size,
